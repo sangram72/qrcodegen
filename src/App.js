@@ -1,14 +1,14 @@
 // App.js
 
 import React from 'react';
-// import DynamicQRCodeGenerator from './DynamicQRCodeGenerator';
-import Qr from './Qr';
+import Scanner from './Scanner';
+
+
 
 const App = () => {
   return (
     <div>
-      <h1 style={{textAlign:'center'}}>QR Code Generator App</h1>
-      <Qr />
+    <Scanner/>
     </div>
   );
 };
