@@ -36,7 +36,7 @@ const Qr = () => {
           <h3>QR Code for:</h3>
           <p className="url-display">{websiteUrl}</p>
           <div className="qrcode">
-            <QRCode value={websiteUrl} size={256} />
+            <QRCode value={websiteUrl} size={256} fgColor="#000000" bgColor="#ffffff" />
           </div>
           <button className="download-button" onClick={downloadQRCode}>
             Download QR Code
